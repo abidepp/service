@@ -65,13 +65,14 @@ public class MyService extends Service {
     {
         try {
             Thread.sleep(1000);
-            String messages = "you are the best BUNNY! Always Excited :P";
+            String messages = "HAPPY VALENTINES DAY BUNNY!!! :P";
 
                 yourMessage = messages;
 
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        Log.i("generateSweetMessage","generateSweetMessage called");
 
     }
 

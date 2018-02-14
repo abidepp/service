@@ -20,11 +20,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     boolean toggle = false;
     Button bindService, unBindService,getYourMessage, startService;
     TextView textView;
+    String message = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        serviceIntent= new Intent(getApplicationContext(), MyService.class);
 
         bindService = (Button) findViewById(R.id.bind);
         unBindService = (Button) findViewById(R.id.unbind);
@@ -58,11 +61,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             Log.i("on click", "on bind clicked");
 
-            if (serviceConnection == null) {
-                Toast.makeText(this, "start the service first", Toast.LENGTH_LONG).show();
-
-            }
-
             serviceConnection = new ServiceConnection() {
             @Override
             public void onServiceConnected(ComponentName name, IBinder service) {
@@ -70,6 +68,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Log.i("on click", "onServiceConnected");
                 MyService.MyServiceBinder myServiceBinder = (MyService.MyServiceBinder) service;
                 myService = myServiceBinder.getService();
+                message = myService.getYourMessage();
             }
 
             @Override
@@ -85,26 +84,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(item == R.id.unbind)
         {
             Log.i("on click","on unbind clicked");
-            serviceIntent= new Intent(getApplicationContext(), MyService.class);
             stopService(serviceIntent);
         }
         if(item == R.id.message)
         {
-            if(toggle)
+            if(true)
             {
                 Log.i("on click","get message clicked");
-                textView.setText(myService.getYourMessage());
+                textView.setText(message);
             }
             else
             {
-                Toast.makeText(this, "start the service first", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "bind the service first", Toast.LENGTH_SHORT).show();
             }
 
         }
 
         if(item == R.id.startservice)
         {
-            serviceIntent= new Intent(getApplicationContext(), MyService.class);
             startService(serviceIntent);
         }
     }
