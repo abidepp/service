@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Downloads/practice_one/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/admin/Downloads/practice_one/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.2.0_1c334ca48cd7091c48ada5d5a07589bf4c55eb4d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Downloads/practice_one/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6f7bc798a3614e2c6dc09733c2fad1bc1e6ce6db">
+        <dex dex="/Users/admin/Downloads/practice_one/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e18237e282e1ef42236fd33cf286659f380231e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/admin/Downloads/practice_one/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_4f6837e1468c5ffbd3e8991e413d4c464c566c21/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Downloads/practice_one/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/admin/Downloads/practice_one/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.2.0_9147ec544973c0735617f0fe898705b5f4bf8d3c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Downloads/practice_one/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/admin/Downloads/practice_one/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.2.0_1772bd3dbfd68d59f83f5a004d54052df1d58c30/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Downloads/practice_one/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/admin/Downloads/practice_one/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.2.0_209a115cc262b1fcbefb1187e2e5e7f33a2b1b59/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Downloads/practice_one/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/admin/Downloads/practice_one/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.2.0_a791072bfa023e2af0c84c9fbd4af3ed04aa03bb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Downloads/practice_one/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="199ff8abb2e291276638d4070dacf852264c7809">
+        <dex dex="/Users/admin/Downloads/practice_one/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_cc8e8997e9ec0cfe0c64e1dba696ab74565d6970/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Downloads/practice_one/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/admin/Downloads/practice_one/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.2.0_d89453079ab2574c586483b684e81973dff0e476/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Downloads/practice_one/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/admin/Downloads/practice_one/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_01b6e84fa154066857da4e7d5072da2f7c4b6b33/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Downloads/practice_one/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/admin/Downloads/practice_one/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.2.0_e69658c826123a688803f330131a6d6037b79e1e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Downloads/practice_one/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/admin/Downloads/practice_one/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.2.0_afc3e60c4802346575f5ca8943ba11df3c5b0dc4/classes.dex" />
+    </item>
+
+</items>
